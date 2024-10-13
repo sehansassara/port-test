@@ -1,0 +1,14 @@
+.footer-sec{
+    background: #916E3F;
+    padding: 0 5%;
+    position: relative;
+    height: auto;
+}
+
+.foo-data{
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #ffffff;
+}

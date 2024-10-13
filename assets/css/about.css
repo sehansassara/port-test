@@ -1,0 +1,221 @@
+#aboutSec{
+    background: #0E0B01;
+    padding: 0 5%;
+    position: relative;
+    height: auto;
+}
+:root
+{
+    --x : 45deg;
+}
+.mainH{
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 1000;
+    top: 5px;
+}
+
+.subH{
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-size: 128px;
+    font-weight: 900;
+    color: rgba(254, 254, 254, 0.7);
+    margin: 0;
+    left: 0.2em;
+    bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translate(1%);
+    z-index: 1000;
+}
+
+#myDetails{
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 85%;
+    left: 100px;
+    top: -40px;
+    line-height: 1.6; /* More readable line spacing */
+}
+
+.hhhh {
+    position: relative;
+    height: 70px;
+}
+
+#perDetails {
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    left: 100px;
+}
+
+#myInter {
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    left: 30em;
+    top: 0;
+}
+
+#ul1 {
+    list-style: none;
+    color: #FFA600;
+    margin-left: 150px;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 30px;
+    gap: 1000px;
+}
+
+#ul1 li {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+    grid-template-columns: auto 1fr;
+    gap: 90px;
+}
+
+#ul1 li:nth-child(2) {
+    gap: 110px;
+}
+
+#ul1 li:nth-child(3) {
+    gap: 112px;
+}
+
+#ul1 li:nth-child(4) {
+    gap: 95px;
+}
+
+#ul1 li:nth-child(5) {
+    gap: 78px;
+}
+
+.color2 {
+    color: white;
+}
+
+#imgInter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    left: 390px;
+    bottom: 175px;
+}
+
+#imgInter img {
+    width: 97px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+/*
+#download {
+    width: 250px;
+    height: 45px;
+    background: linear-gradient(to right, #AE5B12 38%, #F1BE76 100%);
+    border-radius: 25px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(100, 25, 0.5);
+    position: relative;
+    margin: 0 auto;
+    bottom: 70px;
+    !* Smooth transition *!
+    transition: all 0.3s ease-in-out;
+}
+
+#download:hover {
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}*/
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#download{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .5s;
+    overflow: hidden;
+    bottom: 70px;
+    width: 250px;
+    height: 45px;
+    font-family:"Inter", sans-serif;
+    border-radius: 25px;
+}
+
+#download div{
+    position: absolute;
+    inset: -5px;
+    display: block;
+    border-radius: 25px;
+}
+
+#download div,
+#download div:nth-child(2){
+    background: linear-gradient(var(--x), #f19b0f 0%, #d18a0f 30%, #0E0B01 50%, #d18a0f 70%, #d18a0f 100%);
+}
+
+#download div:nth-child(2){
+    filter: blur(10px);
+}
+
+#download span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid #0E0B01;
+    border-radius: 25px;
+    background: rgba(56, 29, 14, 0.45);
+    overflow: hidden;
+}
+
+#download div::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,0.075);
+}
